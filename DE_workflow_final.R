@@ -115,7 +115,7 @@ pca_plot <- ggplot(pcaDATA,aes(PC1,PC2,colour = Tissue,
 
 pca_plot
 
-# to save plots in png or svg (vector format):
+# to save image in png or svg (vetorial) formats:
 #ggsave(pca_plot, file = "RNAseq_Stems_PCA.png", device = "png", width = 1800, height = 1480, units = "px", dpi = 300)
 #ggsave(pca_plot, file = "RNAseq_Stems_PCA.svg", width = 1800, height = 1480, units = "px", device = "svg")
 
