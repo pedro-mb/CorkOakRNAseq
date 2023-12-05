@@ -56,7 +56,7 @@ dds <- DESeqDataSetFromMatrix(countData=countdata, colData=coldata,
 dds
 
 
-### Convert raw counts in Transcript per million (for heatmaps)
+### (OPTIONAL) Convert raw counts in Transcript per million 
 
 # counts_to_TPM.R available here:
 # https://rdrr.io/github/skimlab/CCSBUtils/src/R/counts_to_TPM.R 
