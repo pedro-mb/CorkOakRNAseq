@@ -2,8 +2,8 @@
 
 This repository contains all the detailed commands used for differential gene expression analysis, based on RNA-seq from cork oak stem tissues grown under water deficit (WD) and well watered (WW) conditions. 
 
-**Publication title:** The impact of drought on phellem development: morpho-physiological adaptations and gene expression dynamics in cork oak stems
-**DOI:** XXXXX
+**Publication title:** Drought impact on phellem development: identification of novel gene regulators and evidence of photosynthetic activity
+**DOI:** https://doi.org/10.1101/2023.12.26.573371
 
 Raw RNA-seq data and read count matrix are available at ArrayExpress (Accession: E-MTAB-13376)
 Methods:
