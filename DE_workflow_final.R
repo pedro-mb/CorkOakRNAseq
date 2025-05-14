@@ -352,8 +352,8 @@ res_XylemDrought <- lfcShrink(dds, coef = "TissueXylem.TreatmentWD",type="apeglm
 
 # Order by Adjusted p-value
 res_CorkDrought <- res_CorkDrought[order(res_CorkDrought$padj),]
-res_PhloemDrought <- res_PhloemDrought[order(res_CorkDrought$padj),]
-res_XylemDrought <- res_XylemDrought[order(res_CorkDrought$padj),]
+res_PhloemDrought <- res_PhloemDrought[order(res_PhloemDrought$padj),]
+res_XylemDrought <- res_XylemDrought[order(res_XylemDrought$padj),]
 
 # Filter for padj < 0.05
 resSig_CorkDrought <- subset(res_CorkDrought, padj < 0.05)
